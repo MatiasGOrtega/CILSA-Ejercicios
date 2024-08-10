@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario Pesonal</title>
+</head>
+
+<body>
+  <main>
+    <div class="form-top">
+      <h1 class="form-top-title">Personal Form</h1>
+      <p class="form-top-desc">Enter your personal information for registration</p>
+    </div>
+    <form class="form" action="">
+      <div class="form-group name_group">
+        <label class="form-group-label" for="name">Name</label>
+        <input class="form-group-input" name="name" id="name" type="text" placeholder="Your name" autocomplete="value">
+      </div>
+      <div class="form-group">
+        <label class="form-group-label" for="lastname">Lastname</label>
+        <input class="form-group-input" name="lastname" id="lastname" type="text" placeholder="Your lastname"
+          autocomplete="value">
+      </div>
+      <div class="form-group">
+        <label class="form-group-label" for="email">Email</label>
+        <input class="form-group-input" name="email" id="email" type="email" placeholder="Your email"
+          autocomplete="value">
+      </div>
+      <div class="form-group">
+        <label class="form-group-label" for="birthdate">Birthdate</label>
+        <input class="form-group-input" name="birthdate" id="birthdate" type="date">
+      </div>
+      <div class="form-group">
+        <label class="form-group-label" for="country">Your country</label>
+        <input class="form-group-input" name="country" id="country" type="text" placeholder="Your country"
+          autocomplete="value">
+      </div>
+      <button type="submit">
+        Sign up
+      </button>
+    </form>
+  </main>
+</body>
+<script src="index.js"></script>
+
+</html>
