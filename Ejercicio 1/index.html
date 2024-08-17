@@ -14,7 +14,11 @@
       <h1 class="form-top-title">Personal Form</h1>
       <p class="form-top-desc">Enter your personal information for registration</p>
     </div>
-    <form class="form" action="">
+    <button class="button-change-contrast" type="button">
+      <img src="./icons/icons8-media-luna-64.png" alt="contrast-icon">
+      <span>Cambiar contraste</span>
+    </button>
+    <form class="form" id="personal-form" action="">
       <div class="form-group name_group">
         <label class="form-group-label" for="name">Name</label>
         <input class="form-group-input" name="name" id="name" type="text" placeholder="Your name" autocomplete="value">
@@ -38,12 +42,13 @@
         <input class="form-group-input" name="country" id="country" type="text" placeholder="Your country"
           autocomplete="value">
       </div>
-      <button type="submit">
+      <button class="form-button-submit" type="submit">
         Sign up
       </button>
     </form>
   </main>
 </body>
-<script src="index.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/button-contrast.js"></script>
 
 </html>

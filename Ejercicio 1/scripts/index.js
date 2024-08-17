@@ -1,10 +1,10 @@
 window.addEventListener('load', function () {
   const form = document.querySelector('form')
   const validateRegex = {
-    name: /^[a-zA-Z\s]{2,30}$/,
-    lastname: /^[a-zA-Z\s]{2,30}$/,
+    name: /^[a-zA-Z]{2,30}$/,
+    lastname: /^[a-zA-Z]{2,30}$/,
     email: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/,
-    country: /^[a-zA-Z\s]{2,30}$/,
+    country: /^[a-zA-Z]{2,30}$/,
   }
 
   form.addEventListener('submit', function (event) {
@@ -28,6 +28,8 @@ window.addEventListener('load', function () {
         isValid = false // se cambia el valor de isValid a false
         const errorMessage = document.createElement('p') //creamos un elemento p
         errorMessage.classList.add('error-message') //le agregamos una clase al elemento p
+        errorMessage.setAttribute('role', 'alert') //le agregamos un atributo al elemento p
+        errorMessage.setAttribute('aria-live', 'assertive') //le agregamos un atributo al elemento p
         errorMessage.textContent = `Invalid ${key}` //le agregamos un texto al elemento p
         input.insertAdjacentElement('afterend', errorMessage) //insertamos el elemento p despues del input
       }
@@ -70,7 +72,7 @@ window.addEventListener('load', function () {
 
     if (isValid) {
       // Aquí se puede enviar los datos al servidor o realizar otra acción
-      console.log('Form is valid:', data)
+      alert('Formulario enviado correctamente')
     }
   })
 })
