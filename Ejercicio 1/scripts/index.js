@@ -7,6 +7,9 @@ window.addEventListener('load', function () {
     country: /^[a-zA-Z]{2,30}$/,
   }
 
+  // Enfocar el primer campo por defecto
+  document.getElementById('name').focus();
+
   form.addEventListener('submit', function (event) {
     event.preventDefault()
 

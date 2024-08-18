@@ -4,6 +4,8 @@ const form = document.querySelector('.form')
 const formTop = document.querySelector('.form-top')
 
 buttonToChangeContrast.addEventListener('click', function () {
+  document.getElementById('name').focus();
+
   body.classList.toggle('contrast-body')
   form.classList.toggle('contrast-form')
   formTop.classList.toggle('contrast-form-top')

@@ -98,6 +98,10 @@ input::placeholder{
   &:hover{
     background-color: #5A52FF;
   }
+
+  &:focus{
+    background-color: #5A52FF;
+  }
 }
 
 .button-change-contrast{
@@ -179,6 +183,12 @@ input::placeholder{
     color: #000000;
 
     &:hover{
+      background-color: #0c0c0c;
+      border: 1px solid #F9F9F9;
+      color: white;
+    }
+
+    &:focus{
       background-color: #0c0c0c;
       border: 1px solid #F9F9F9;
       color: white;
