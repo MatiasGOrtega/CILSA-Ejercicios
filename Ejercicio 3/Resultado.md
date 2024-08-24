@@ -15,9 +15,9 @@ Los pagos en Render se realizan en dólares estadounidenses (USD) y pueden ser m
 
 ## Netlify
 
-**Modelo de Precios:** Netlify tiene una opción gratuita que permite alojar sitios estáticos con despliegues continuos desde repositorios Git. Sin embargo, esta capa gratuita tiene limitaciones en cuanto al ancho de banda y las funciones avanzadas como el acceso a funciones de servidor más complejas o el soporte técnico.
+**Modelo de Precios:** Netlify tiene una opción gratuita (100 GB bandwidth, 300 build minutes, 1M edge function invocations) que permite alojar sitios estáticos con despliegues continuos desde repositorios Git. Sin embargo, esta capa gratuita tiene limitaciones en cuanto al ancho de banda y las funciones avanzadas como el acceso a funciones de servidor más complejas o el soporte técnico.
 
-Los planes pagos comienzan en $19 USD al mes por usuario, con opciones para pequeñas y grandes empresas. También se pueden agregar servicios avanzados como analítica de sitios, despliegues priorizados, y acceso a funciones de seguridad avanzadas por un costo adicional.
+Los planes pagos comienzan en $19 USD al mes por usuario (Password-protected sites, 1TB bandwidth, 25.000 build minutes, Team audit logs with 7-day history, Shared environment variables, Support for organization-owned private Git repos, Slack & email notifications, Email support), con opciones para pequeñas y grandes empresas. También se pueden agregar servicios avanzados como analítica de sitios, despliegues priorizados, y acceso a funciones de seguridad avanzadas por un costo adicional.
 
 **Servicios Ofrecidos**: Netlify se especializa en la implantación y alojamiento de sitios JAMstack, ofreciendo:
 - *Despliegues globales* en una red de distribución de contenido (CDN).
