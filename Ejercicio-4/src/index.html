@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Formulario Pesonal</title>
+</head>
+
+<body>
+  <main class="position-relative">
+    <header class="z-3 position-fixed d-flex justify-content-center py-3 bg-dark w-100 border-bottom border-warning">
+      <ul class="nav nav-pills">
+        <li class="nav-item px-2">
+          <a href="#hero" class="link-warning link-offset-2 nav-link icon-link icon-link-hover" aria-current="page">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house"
+              viewBox="0 0 16 16">
+              <path
+                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+            </svg>
+            Inicio
+          </a>
+        </li>
+        <li class="nav-item px-2">
+          <a href="#profile" class="link-warning link-offset-2 nav-link icon-link icon-link-hover" aria-current="page">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+              <path
+                d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755" />
+            </svg>
+            Perfil
+          </a>
+        </li>
+        <li class="nav-item px-2">
+          <a href="#contact" class="link-warning link-offset-2 nav-link icon-link icon-link-hover" aria-current="page">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at"
+              viewBox="0 0 16 16">
+              <path
+                d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+              <path
+                d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+            </svg>
+            Contacto
+          </a>
+        </li>
+      </ul>
+    </header>
+    <section id="hero" class="min-vh-100 bg-dark carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item min-vh-100 active position-relative top-50">
+          <div class="carousel-caption d-md-block bg-black bg-opacity-50 rounded p-2 ">
+            <h1 class="display-2">Desarrollador Web Frontend</h1>
+            <p class="fs-4">Cuento con conocimientos en las tecnologias mas usadas del mercado.</p>
+          </div>
+        </div>
+        <div class="carousel-item min-vh-100">
+          <div class="carousel-caption d-md-block bg-black bg-opacity-50 rounded p-2">
+            <h1 class="display-2">Diseño UX/UI</h1>
+            <p class="fs-4">Me gusta crear interfaces unicas e interactivas para mejorar la experiencia del usuario.</p>
+          </div>
+        </div>
+        <div class="carousel-item min-vh-100">
+          <div class="carousel-caption d-md-block bg-black bg-opacity-50 rounded p-2">
+            <h1 class="display-2">Autodidacta</h1>
+            <p class="fs-4">Aprendo cada dia para mejorar mis habilidades.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-black bg-opacity-50 p-4 rounded rounded-5" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-black bg-opacity-50 p-4 rounded rounded-5" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <section id="profile" class="min-vh-100 bg-light d-flex justify-content-center align-items-center p-3 p-sm-0">
+      <div class="card mx-auto shadow-sm bg-dark border border-0 d-flex flex-colum flex-sm-row">
+        <div class="card-body text-center bg-body-secondary">
+          <figure class="d-flex justify-content-center mb-3">
+            <span class="position-relative d-flex overflow-hidden rounded-circle border border-white"
+              style="width: 9rem; height: 9rem;">
+              <img src="../public/mi.jpg" alt="foto de perfil de matias ortega" class="img-fluid"/>
+            </span>
+          </figure>
+          <h3 class="card-title text-xl fw-bold">Matias Ortega</h3>
+          <p class="text-secondary">Desarrollador Front-end</p>
+        </div>
+        <div class="card-body">
+          <p class="card-text text-white">
+            Soy un desarrollador frontend apasionado por crear paginas web innovadoras y fáciles de usar. Tengo
+            experiencia en desarrollo full-stack y siempre estoy dispuesto a aprender nuevas tecnologías.
+          </p>
+          <button class="btn btn-outline-warning w-100">
+            Saber mas
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="min-vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
+      <h1 class="h1 text-white">Contacto</h1>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label text-white">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                <div class="invalid-feedback" id="nameError"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label text-white">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                <div class="invalid-feedback" id="emailError"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label text-white">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje aquí..." required></textarea>
+                <div class="invalid-feedback" id="messageError"></div>
+              </div>
+
+              <button type="submit" class="btn btn-warning w-100">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="../scripts/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

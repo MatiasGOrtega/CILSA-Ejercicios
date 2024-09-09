@@ -1,0 +1,33 @@
+.carousel-inner .carousel-item:first-child {
+  background-image: url('../public/web-1045994_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-inner .carousel-item:nth-child(2) {
+  background-image: url('../public/UXUI.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-inner .carousel-item:nth-child(3) {
+  background-image: url('../public/laptop-2620118_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card{
+  max-width: 600px;
+  .card-body{
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card{
+    max-width: 100%;
+    .card-body{
+      width: 100%;
+    }
+  }
+}
